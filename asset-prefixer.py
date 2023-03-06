@@ -9,7 +9,7 @@ system_lib = unreal.SystemLibrary()
 # prefix mapping
 prefix_mapping = {}
 
-with open("C:\\Users\\user\\PycharmProjects\\UE4\\prefix_mapping.json", 'r') as json_file:
+with open("F:\\PycharmProjects\\UE\\ue-asset-prefixer\\prefix_mapping.json", 'r') as json_file:
     prefix_mapping = json.loads(json_file.read())
 
 # get the selected assets
